@@ -6,7 +6,7 @@ import joblib
 scaler_deploy = joblib.load("scaler_retail.joblib")
 kmeans_deploy = joblib.load("kmeans_retail.joblib")
 
-st.title("Retail Customer Segmentation AI")
+st.title("Retail Customer Segmentation")
 st.write("Masukkan profil pendapatan dan kebiasaan belanja pelanggan di bawah ini.")
 
 # Form Input
